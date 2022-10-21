@@ -131,16 +131,21 @@ La extensión [*XML*](https://marketplace.visualstudio.com/items?itemName=redhat
 
 <span style="color:red">Añadir texto entre imágenes.</span>
 
+Primeramente seleccionamos un fragmento de código para cambiar el nombre del símbolo.
+
 ![Fig. 10. Selección de un fragmento de código para el cambio de nombre del símbolo.](https://raw.githubusercontent.com/tthub-repo/lecciones/master/edicion_digital_con_VSCode/img/Imagen10.png)
 
 <!-- Fig. 10. Selección de un fragmento de código para el cambio de nombre del símbolo. -->
 
-![Fig. 11. Símbolo por el que queremos remplazar el símbolo actual.](https://raw.githubusercontent.com/tthub-repo/lecciones/master/edicion_digital_con_VSCode/img/Imagen11.png)
+Seleccionamos el símbolo por el que queremos reemplazar el símbolo actual. En este caso `<l>` sustiuirá a `<p>` y `</p>`.
+
+![Fig. 11. Símbolo por el que queremos reemplazar el símbolo actual.](https://raw.githubusercontent.com/tthub-repo/lecciones/master/edicion_digital_con_VSCode/img/Imagen11.png)
 
 <!-- Fig. 11. Escribimos el símbolo por el que queremos cambiar el símbolo actual. -->
 
+Finalmente vemos el resultado de la operación en VS Code.
 
-![Fig. 12. Resultado en VsCode.](https://raw.githubusercontent.com/tthub-repo/lecciones/master/edicion_digital_con_VSCode/img/Imagen12.png)
+![Fig. 12. Resultado en VS Code.](https://raw.githubusercontent.com/tthub-repo/lecciones/master/edicion_digital_con_VSCode/img/Imagen12.png)
 
 <!-- Fig. 12. Vemos el resultado en VsCode. -->
 
@@ -172,19 +177,23 @@ El cometido de la última extensión, [xslt-transform](https://marketplace.visua
 
 En primer lugar, instalamos la extensión *xslt-transform*. 
 
-<span style="color:red">Explicar los textos en un párrafo, no como leyenda de la figura</span> 
+<span style="color:red">Explicar los textos en un párrafo, no como leyenda de la figura</span>
 
-![Fig. 16 Nuestro archivo en VS Code.](https://raw.githubusercontent.com/tthub-repo/lecciones/master/edicion_digital_con_VSCode/img/Imagen16.png)
+Tras la instalación abrimos nuestro archivo en VSCode y buscamos el comando que nos permite hacer la transformación mediante XSLT (XSLT: Run Transformation).
+
+![Fig. 16 Nuestro archivo en VSCode.](https://raw.githubusercontent.com/tthub-repo/lecciones/master/edicion_digital_con_VSCode/img/Imagen16.png)
 
 <!-- Fig. 16 Abrimos nuestro archivo en VS Code. -->
 
-![Fig. 17 Buscamos el comando que nos permite hacer la transformación mediante XSLT (XSLT: Run Transformation)](https://raw.githubusercontent.com/tthub-repo/lecciones/master/edicion_digital_con_VSCode/img/Imagen17.png)
+![Fig. 17 Comando XSLT: Run Transformation](https://raw.githubusercontent.com/tthub-repo/lecciones/master/edicion_digital_con_VSCode/img/Imagen17.png)
 
 <!-- Fig. 17 Buscamos el comando que nos permite hacer la transformación mediante XSLT (XSLT: Run Transformation). -->
 
-Tras este paso, cargaremos el archivo .xsl o .xslt que hayamos preparado para la transformación. En nuestro caso, hemos partido de un archivo .xsl que ha generado Susanna Allés Torrent y lo hemos modificado para los propósitos de este tutorial.
+Después de este paso, cargaremos el archivo .xsl o .xslt que hayamos preparado para la transformación. En nuestro caso, hemos partido de un archivo .xsl que ha generado Susanna Allés Torrent y lo hemos modificado para los propósitos de este tutorial.
 
-![Fig. 18 Guardamos el archivo resultante de la transformación como .html](https://raw.githubusercontent.com/tthub-repo/lecciones/master/edicion_digital_con_VSCode/img/Imagen18.png)
+Guardamos el archivo resultante de la transformación como .html y disfrutamos de un HTML sencillo.
+
+![Fig. 18 Guardamos el archivo en .html](https://raw.githubusercontent.com/tthub-repo/lecciones/master/edicion_digital_con_VSCode/img/Imagen18.png)
 
 <!-- Fig. 18 Guardamos el archivo resultante de la transformación como .html -->
 
